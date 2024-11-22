@@ -1,0 +1,168 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_begginings"
+	group: "65646738847719BD"
+	icon: "minecraft:flint"
+	id: "351CD5E313A98447"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0DDF51CBA1181EA3"]
+			description: ["&8This one flint is the start of your long journey...&r"]
+			hide_until_deps_complete: true
+			id: "70E06794BA057126"
+			rewards: [
+				{
+					id: "7E4BE16D2D5F1AF1"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					id: "7D79C97BD3267632"
+					type: "xp"
+					xp: 1
+				}
+			]
+			size: 1.5d
+			subtitle: "&7What would i use this for?"
+			tasks: [{
+				id: "26648707C995DBA4"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			title: "&dA Flint?"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70E06794BA057126"]
+			description: ["&8Use a piece of flint on some exposed stone to break it into some small flint shards."]
+			id: "1709D774E0F2BCEA"
+			rewards: [{
+				id: "64F3383FD6A0D01A"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "&7How do i get it?"
+			tasks: [{
+				id: "56234736DAAD79C7"
+				item: "notreepunching:flint_shard"
+				type: "item"
+			}]
+			title: "&fFlint Shard?"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1709D774E0F2BCEA"
+				"19E8A4C7A42F679D"
+			]
+			id: "2C3BABB014DAEF89"
+			rewards: [{
+				id: "29546F36596F7EBD"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "14FC1E73CE5E85E5"
+				item: {
+					Count: 1
+					id: "notreepunching:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&fThis might be usefull..."
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C440C1539D47DF0"]
+			hide_until_deps_complete: true
+			id: "19E8A4C7A42F679D"
+			rewards: [{
+				id: "093F4AA8623E5DD8"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "2C4D7C3FBDCA2AD6"
+				item: "minecraft:stick"
+				type: "item"
+			}]
+			title: "&fA Big Stick"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2C3BABB014DAEF89"]
+			id: "02196CFCF6EE4FD2"
+			rewards: [{
+				id: "0D492B05CF788FDA"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "5D856E2C60C93BFE"
+				item: "notreepunching:plant_string"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["578578DC5D195F1A"]
+			id: "2385059565FCFE71"
+			rewards: [{
+				id: "2A3E0986AEF869BD"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "6B54FD0F4268007E"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "&dFinally Some Wood!"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02196CFCF6EE4FD2"]
+			id: "578578DC5D195F1A"
+			rewards: [{
+				id: "66BE6BA55D665A24"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "74483D794F8E5C54"
+				item: {
+					Count: 1
+					id: "notreepunching:flint_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&fThe First Axe"
+			x: 8.5d
+			y: 0.0d
+		}
+	]
+	title: "The Begginings"
+}
