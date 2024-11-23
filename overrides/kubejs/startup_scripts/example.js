@@ -4,3 +4,4 @@
 
 console.info('Hello, World! (Loaded startup scripts)')
 
+Platform.mods.kubejs.name = "Farwater";
