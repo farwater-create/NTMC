@@ -7,5 +7,5 @@ StartupEvents.registry("item", (e) => {
 
     e.create("ntmc:conduction_ingot");
 
-    e.create("ntmc:incomplete_controller").maxStackSize(1);
+    e.create("ntmc:incomplete_controller").displayName("Incomplete ME Controller").maxStackSize(1);
 });

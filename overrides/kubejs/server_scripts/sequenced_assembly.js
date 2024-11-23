@@ -7,7 +7,7 @@ ServerEvents.recipes((e) => {
         [
           e.recipes.create.deploying(t, [t, Item.of("ae2:certus_quartz_crystal")]),
           e.recipes.create.deploying(t, [t, Item.of("kubejs:conduction_ingot")]),
-          e.recipes.create.filling(t, [t, Fluid.of("kubejs:liquid_conductor", 50)]),
+          e.recipes.create.filling(t, [Fluid.of("kubejs:liquid_conductor", 50), t]),
         ]
       )
       .transitionalItem(t)

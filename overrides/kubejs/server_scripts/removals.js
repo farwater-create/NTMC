@@ -5,6 +5,7 @@ const recipeRemovals = [
     { output: "minecraft:iron_sword" },
     { output: "minecraft:iron_hoe" },
     { output: "create:electron_tube" },
+    { output: "ae2:controller" },
 ];
 
 ServerEvents.recipes((e) => {
