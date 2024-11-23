@@ -1,5 +1,5 @@
 ServerEvents.recipes((e) => {
-    e.shaped("ntmc:incomplete_iron_pickaxe"),
+    e.shaped("ntmc:incomplete_iron_pickaxe",
   [
         "III",
         " S ",
@@ -8,9 +8,9 @@ ServerEvents.recipes((e) => {
    {
         I: "create:iron_sheet",
         S: "minecraft:stick"
-   };
+   });
 
-    e.shaped("ntmc:incomplete_iron_axe"),
+    e.shaped("ntmc:incomplete_iron_axe",
     [
         " II",
         " SI",
@@ -19,9 +19,9 @@ ServerEvents.recipes((e) => {
     {
         I: "create:iron_sheet",
         S: "minecraft:stick"
-    };
+    });
 
-    e.shaped("ntmc:incomplete_iron_axe"),
+    e.shaped("ntmc:incomplete_iron_axe",
     [
         "II ",
         "IS ",
@@ -30,9 +30,9 @@ ServerEvents.recipes((e) => {
     {
         I: "create:iron_sheet",
         S: "minecraft:stick"
-    };
+    });
 
-    e.shaped("ntmc:incomplete_iron_shovel"),
+    e.shaped("ntmc:incomplete_iron_shovel",
     [
         " I ",
         " S ",
@@ -41,9 +41,9 @@ ServerEvents.recipes((e) => {
     {
         I: "create:iron_sheet",
         S: "minecraft:stick"
-    };
+    });
 
-    e.shaped("ntmc:incomplete_iron_sword"),
+    e.shaped("ntmc:incomplete_iron_sword",
     [
         " I ",
         " I ",
@@ -52,9 +52,9 @@ ServerEvents.recipes((e) => {
     {
         I: "create:iron_sheet",
         S: "minecraft:stick"
-    };
+    });
 
-    e.shaped("ntmc:incomplete_iron_hoe"),
+    e.shaped("ntmc:incomplete_iron_hoe",
     [
         " II",
         " I ",
@@ -63,9 +63,9 @@ ServerEvents.recipes((e) => {
     {
         I: "create:iron_sheet",
         S: "minecraft:stick"
-    };
+    });
 
-    e.shaped("ntmc:incomplete_iron_hoe"),
+    e.shaped("ntmc:incomplete_iron_hoe",
     [
         "II ",
         " I ",
@@ -74,5 +74,5 @@ ServerEvents.recipes((e) => {
     {
         I: "create:iron_sheet",
         S: "minecraft:stick"
-    };
+    });
 });
