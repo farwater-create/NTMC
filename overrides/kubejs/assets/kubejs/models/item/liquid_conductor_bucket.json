@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "ntmc:item/liquid_conductor_bucket"
+        "layer0": "kubejs:item/liquid_conductor_bucket"
     }
 }
