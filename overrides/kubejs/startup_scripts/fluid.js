@@ -1,13 +1,11 @@
 StartupEvents.registry('fluid', (e) => {
-    e.create('liquid_conductor')
-      .displayName('Liquid Conductor')
-      .stillTexture('ntmc:block/liquid_conductor_still')
-      .flowingTexture('ntmc:block/liquid_conductor_flow')
-      .bucketColor(0xffffff);
+    e.create('ntmc:molten_conductor')
+      .displayName('Molten Conductor')
+      .stillTexture('ntmc:block/molten_conductor_still')
+      .flowingTexture('ntmc:block/molten_conductor_flow');
 
-    e.create('liquid_redstone')
-      .displayName('Liquid Redstone')
-      .stillTexture('ntmc:block/liquid_redstone_still')
-      .flowingTexture('ntmc:block/liquid_redstone_flow')
-      .bucketColor(0xffffff);
+    e.create('ntmc:molten_redstone')
+      .displayName('Molten Redstone')
+      .stillTexture('ntmc:block/molten_redstone_still')
+      .flowingTexture('ntmc:block/molten_redstone_flow');
 });

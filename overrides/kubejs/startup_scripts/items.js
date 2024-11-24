@@ -8,4 +8,8 @@ StartupEvents.registry("item", (e) => {
     e.create("ntmc:conduction_ingot");
 
     e.create("ntmc:incomplete_controller").displayName("Incomplete ME Controller").maxStackSize(1);
+
+    e.create("ntmc:incomplete_logic_processor");
+    e.create("ntmc:incomplete_calculation_processor");
+    e.create("ntmc:incomplete_engineering_processor");
 });
