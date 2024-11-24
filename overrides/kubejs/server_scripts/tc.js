@@ -8,10 +8,10 @@ ServerEvents.recipes((e) => {
             },
             {
                 amount: 144,
-                fluid: "kubejs:liquid_redstone"
+                fluid: "ntmc:molten_redstone"
             }
         ],
-        result: { fluid: "kubejs:liquid_conductor", amount: 288},
+        result: { fluid: "ntmc:molten_conductor", amount: 288},
         temperature: 1400
     });
 
@@ -22,11 +22,11 @@ ServerEvents.recipes((e) => {
         },
         cooling_time: 47,
         fluid: {
-            amount: 90,
-            fluid: 'kubejs:liquid_conductor'
+            amount: 144,
+            fluid: 'ntmc:molten_conductor'
         },
         result: {
-            item: 'kubejs:conductor_ingot'
+            item: 'ntmc:conductor_ingot'
         }
     });
 
@@ -37,7 +37,7 @@ ServerEvents.recipes((e) => {
                 tag: "c:redstone_dusts"
             }
         ],
-        result: { fluid: "kubejs:liquid_redstone", amount: 144},
+        result: { fluid: "ntmc:molten_redstone", amount: 144},
         temperature: 700,
         time: 60
     });
