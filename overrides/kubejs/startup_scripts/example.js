@@ -4,4 +4,4 @@
 
 console.info('Hello, World! (Loaded startup scripts)')
 
-Platform.mods.kubejs.name = 'NTMC'
+Platform.mods.kubejs.name = 'ntmc'
