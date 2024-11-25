@@ -1,4 +1,4 @@
-ServerEvents.recipes((e) => {
+ServerEvents.recipes,((e) => {
     e.custom({
         type: "tconstruct:alloy",
         inputs: [
@@ -34,7 +34,7 @@ ServerEvents.recipes((e) => {
         type: "tconstruct:melting",
         inputs: [
             {
-                tag: "c:redstone_dusts"
+                tag: "minecraft:redstone_dust"
             }
         ],
         result: { fluid: "ntmc:molten_redstone", amount: 144},
