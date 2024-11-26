@@ -12,4 +12,9 @@ StartupEvents.registry("item", (e) => {
     e.create("ntmc:incomplete_logic_processor");
     e.create("ntmc:incomplete_calculation_processor");
     e.create("ntmc:incomplete_engineering_processor");
+
+    e.create("ntmc:graphite_powder");
+    e.create("ntmc:graphite");
+
+    e.create("ntmc:impure_diamond");
 });

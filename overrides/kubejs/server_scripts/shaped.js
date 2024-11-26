@@ -1,14 +1,14 @@
 ServerEvents.recipes((e) => {
     e.shaped("ntmc:incomplete_iron_pickaxe",
-  [
+    [
         "III",
         " S ",
         " S "
-   ],
-   {
+    ],
+    {
         I: "create:iron_sheet",
         S: "minecraft:stick"
-   });
+    });
 
     e.shaped("ntmc:incomplete_iron_axe",
     [
