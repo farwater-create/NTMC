@@ -163,6 +163,75 @@
 			x: 8.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["02196CFCF6EE4FD2"]
+			hide_dependency_lines: true
+			id: "71C3ACA0AE3B6ED9"
+			rewards: [{
+				id: "1BB67F4AE67F1709"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "38ADCCC96406DDD6"
+				item: {
+					Count: 1
+					id: "notreepunching:flint_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["02196CFCF6EE4FD2"]
+			hide_dependency_lines: true
+			id: "6FD9FDC55BD734ED"
+			rewards: [{
+				id: "18E66D22F403F4D7"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "259F0C291018450C"
+				item: {
+					Count: 1
+					id: "notreepunching:flint_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["02196CFCF6EE4FD2"]
+			hide_dependency_lines: true
+			id: "2BAD4F7AB854D182"
+			rewards: [{
+				id: "35CE2C40630FB065"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "0F9A94797633DF74"
+				item: {
+					Count: 1
+					id: "notreepunching:flint_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
 	]
 	title: "The Begginings"
 }
